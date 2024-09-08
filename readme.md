@@ -73,8 +73,8 @@ This approach employs Microsoft's Phi-3 model, fine-tuned specifically for HTML-
 ### 4.7 Performance Results
 - **Training Set**: 24,000 examples
 - **Test Set:** 100 samples
-- **Success Rate**: 100% output generation (no complete failures)
-- **Quality Issues**: 10% of outputs had JSON syntax errors, requiring re-processing
+- **Success Rate**: 99.53% output generation (no complete failures)
+- **Quality Issues**: 20% of outputs had JSON syntax errors, requiring re-processing
 - **Evaluation Process**: Similar to the rule-based method, the evaluation involves element-wise comparison in Header, Body, and Footer sections between the LLM-generated metadata and the ground truth. This rigorous checking ensures high fidelity in the parsed output across all table components.
 
 ### 4.8 Time and Cost Considerations
@@ -99,7 +99,7 @@ This approach employs Microsoft's Phi-3 model, fine-tuned specifically for HTML-
 
 ### 6.1 Accuracy
 - **Rule-Based**: 99.97% success rate on 111 test files, with element-wise matching in Header, Body, and Footer sections
-- **LLM-Based**: 100% output generation, 10% require re-processing due to JSON syntax errors. Evaluation includes detailed element matching across all table sections
+- **LLM-Based**: 99.53% output generation, 20% require re-processing due to JSON syntax errors. Evaluation includes detailed element matching across all table sections
 
 ### 6.2 Speed
 - **Rule-Based**: Very fast, minimal processing requirements
