@@ -1,0 +1,33 @@
+{
+    "body": {
+        "content": [
+            "1060",
+            "37",
+            "1593",
+            "1364"
+        ],
+        "headers": {
+            "col": [
+                "Roberts LLC"
+            ],
+            "row": [
+                "Daniel Brown",
+                "Shane Barnes DDS",
+                "Nicole Carpenter",
+                "Kristin Duarte",
+				"programmer",
+				"Carpenter",
+				"singer",
+				"actor"
+            ]
+        }
+    },
+    "footer": {
+        "table_creation_date:": "3Feb2013",
+        "text": "modified: 5Feb2013\nCreation: 3Feb2013 Chad"
+    },
+    "header": {
+        "table_id": "59.99.9.62",
+        "text": "Table 59.99.9.62 Loss adjuster, chartered"
+    }
+}
